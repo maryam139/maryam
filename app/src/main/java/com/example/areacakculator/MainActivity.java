@@ -57,7 +57,7 @@ mTextResult.setText(CalculateCircle.toString());
         Double Height = Double.parseDouble(mEditHeight.getText().toString());
         Double CalculateTriangle = 0.5*width*Height;
         mTextResult.setText(CalculateTriangle.toString());
-    }
+   }
     public void RectangleCalculate(){
         Double width = Double.parseDouble(mEditWidth.getText().toString());
         Double Height = Double.parseDouble(mEditHeight.getText().toString());
@@ -65,4 +65,5 @@ mTextResult.setText(CalculateCircle.toString());
         mTextResult.setText(CalculateRectangle.toString());
 
     }
+
 }
